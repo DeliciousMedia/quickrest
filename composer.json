@@ -1,0 +1,12 @@
+{
+  "name": "deliciousmedia/quickrest",
+  "description": "QuickREST - a WordPress plugin which speeds up REST API requests by selective loading of plugins.",
+  "homepage": "https://github.com/DeliciousMedia/quickrest",
+  "license": "GPL-3.0-or-later",
+  "type": "wordpress-muplugin",
+  "require":
+  {
+    "php": ">=7.0",
+    "composer/installers": "v1.0.6"
+  }
+}
