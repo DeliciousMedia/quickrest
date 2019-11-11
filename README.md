@@ -34,11 +34,11 @@ add_filter(
   'quickrest_plugin_map',
   function( $map ) {
     // Remove our filter so we don't get stuck in a loop when getting the active_plugins option.
-    remove_filter( 'option_active_plugins', 'dmrestaccel_filter_plugins' );
+    remove_filter( 'option_active_plugins', 'quickrest_filter_plugins', PHP_INT_MAX - 1 );
     $new_map = [
       '_default' => get_option( 'active_plugins' ),
     ];
-    add_filter( 'option_active_plugins', 'dmrestaccel_filter_plugins' );
+    add_filter( 'option_active_plugins', 'quickrest_filter_plugins', PHP_INT_MAX - 1 );
     return array_merge_recursive( $map, $new_map );
   },
   10,
