@@ -3,7 +3,7 @@
  * Plugin Name: QuickREST
  * Plugin URI:  https://www.deliciousmedia.co.uk/
  * Description: Speed up REST API requests by selective loading of plugins.
- * Version:     2.1.1
+ * Version:     2.1.2
  * Author:      Delicious Media Limited
  * Author URI:  https://www.deliciousmedia.co.uk/
  * Text Domain: dm-quickrest
